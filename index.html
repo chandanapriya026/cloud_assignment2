@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile Page</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<style>
+		body {
+			background-color: #f7f7f7;
+		}
+		.profile-header {
+			background-color: #fff;
+			border-bottom: 1px solid #ccc;
+			padding: 30px 0;
+		}
+		.profile-image {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			object-fit: cover;
+			object-position: center;
+			margin: 0 auto;
+			display: block;
+			border: 2px solid #fff;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		}
+		.profile-name {
+			font-size: 28px;
+			font-weight: bold;
+			margin-top: 20px;
+			text-align: center;
+		}
+		.profile-details {
+			margin-top: 30px;
+			padding: 0 15px;
+		}
+		.profile-details h4 {
+			margin-bottom: 15px;
+		}
+		.profile-details p {
+			font-size: 16px;
+			margin-bottom: 0;
+		}
+		.profile-actions {
+			margin-top: 30px;
+			display: flex;
+			justify-content: center;
+		}
+		.btn-primary {
+			background-color: #8c9eff;
+			border-color: #8c9eff;
+			margin-right: 10px;
+		}
+		.btn-primary:hover {
+			background-color: #6872e0;
+			border-color: #6872e0;
+		}
+		.btn-primary:focus {
+			box-shadow: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="profile-header">
+			<img src="https://www.nicepng.com/png/detail/52-521023_download-free-icon-female-vectors-blank-facebook-profile.png" alt="Profile Image" class="profile-image">
+			<h2 class="profile-name">Chandana Priya</h2>
+		</div>
+		<div class="profile-details">
+			<h4>Personal Details</h4>
+			<p><strong>Email:</strong> 20bcs026@iiitdwd.ac.in</p>
+			<p><strong>Location:</strong> Dharwad</p>
+			<p><strong>Birthday:</strong> May 04,2003</p>
+		</div>
+		<div class="profile-actions">
+			<button class="btn btn-primary">Edit Profile</button>
+			<button class="btn btn-primary">Logout</button>
+		</div>
+	</div>
+	<!-- Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
